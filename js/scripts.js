@@ -5,4 +5,6 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
-<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+function myFunction(x) {
+    x.classList.toggle("change");
+} 
