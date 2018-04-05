@@ -48,3 +48,18 @@
     font-size: 20px;
     font-family: 'Indie Flower', cursive;
   }
+  #breakfast {
+    background-image: url(./Images/breakfast.jpg);
+    background-size: cover;
+    padding: 50px;
+    margin: 0px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+  }
+  #lunch {
+    background-image: url(./Images/lunch.jpg);
+    background-size: cover;
+    padding: 50px;
+    margin: 0px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
