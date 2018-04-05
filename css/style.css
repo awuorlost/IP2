@@ -1,0 +1,279 @@
+.jumbotron{
+  background-image: url(../img/backgrounds/landing.jpg);
+  background-repeat: no-repeat;
+  height:80vh;
+  margin: 0vh;
+  padding-right: 0px;
+  background-size: cover;
+  font-family: 'Yatra One', cursive;
+}
+/* .col-md-3{
+  border: 1px solid red;
+  margin:0px;
+}
+
+ */
+ .col-md-3{
+   padding: 0px;
+   margin: 0%;
+   text-align: center;
+   font-family: 'Berkshire Swash', cursive;
+ }
+.tworows{
+  height: 100%;
+  margin: 0px;
+  text-align: center;
+   font-size: 20px;
+   font-family: 'Berkshire Swash', cursive;
+}
+.party{
+  height: 60px;
+  background-color: #ff7433;
+  margin: 0px;
+  font-family: 'Berkshire Swash', cursive;
+}
+.happy{
+  height: 60px;
+    margin: 0px;
+  background-color: #f1e9e5;
+  font-family: 'Berkshire Swash', cursive;
+}
+#breakfast{
+  background-image: url(../img/foodtop/breakfast.jpg);
+	background-size: cover;
+	padding: 50px;
+  margin: 0px;
+  color: white;
+  font-family: 'Berkshire Swash', cursive;
+}
+#lunch{
+	background-image: url(../img/foodtop/lunch.jpg);
+	background-size: cover;
+	padding: 50px;
+    margin: 0px;
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+}
+#red{
+  color: #ff7433;
+}
+#dinner{
+	background-image: url(../img/foodtop/dinner2.jpg);
+	background-size: cover;
+	padding: 50px;
+  margin: 0px;
+  color: white;
+  font-family: 'Berkshire Swash', cursive;
+}
+.logo{
+padding-left: 40%;
+padding-bottom: 0%;
+padding-top: 0%;
+font-family: 'Berkshire Swash', cursive;
+}
+.body {
+    color: white
+    margin: 0;
+ padding: 0;
+}
+
+.head{
+    text-align: center;
+    color: white;
+    font-family: 'Caveat', cursive;
+    padding-left: 5%;
+    font-size: 30px;
+
+}
+.container-fluid{
+  width:100%;
+  margin-top: 0%;
+ padding: 0;
+}
+.row{
+margin: 0%;
+}
+.gallery{
+  background-color: white;
+   width: 200px;
+   border:  3px solid #ff7433;
+   padding: 0px;
+   margin-top: 0px;
+   margin-bottom: 50px;
+   margin-left: 300px;
+   font-family: 'Berkshire Swash', cursive;
+}
+.colmd{
+margin-top: 50px;
+margin-right: 50px;
+margin-left: 50px;
+border:  3px solid silver;
+font-family: 'Berkshire Swash', cursive;
+}
+.colmd1{
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border:  3px solid silver;
+  margin-bottom: 50px;
+  font-family: 'Berkshire Swash', cursive;
+}
+.bg2{
+    background-image: url(../img/backgrounds/foodsBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:60vh;
+    margin top:50px;
+    padding-right: 0px;
+    font-family: 'Berkshire Swash', cursive;
+}
+.cust{
+  border: 3px solid silver;
+  margin-right: 70px;
+  margin-left: 70px;
+  margin-top: 70px;
+  font-family: 'Berkshire Swash', cursive;
+}
+.tomatoe{
+  background-image: url(..//img/backgrounds/subscribe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:40vh;
+  margin top:0px;
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+}
+.font{
+  text-align: left;
+  font-size: 25px;
+  padding-top: 100PX;
+}
+
+.overlay {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+/* Add some padding and a grey background color to containers */
+form {
+    border: 4px;
+}
+
+.container {
+    padding: 2px;
+}
+
+input[type=text], input[type=submit] {
+    width: 35%;
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ff7433;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 1px;
+}
+
+input[type=submit] {
+    background-color: #ff7433;
+    color: white;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+.bottom{
+  background-color: #ff7433;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  height:50vh;
+  margin top:0px;
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+}
+.serro{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.col-md-4{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.bug{
+  padding: 0px;
+  margin: 0px;
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    width: 25%;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+
+    color: #F15A29;
+    cursor: default;
+    background-color: #fff;
+    border: 0.5px solid #ddd;
+    border-bottom-color: transparent;
+}
+.footer{
+  background-color: #ff7433;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:40vh;
+  margin top:0px;
+  font-family: 'Berkshire Swash', cursive;
+  color: white;
+}
+#align{
+  text-align: center;
+}
