@@ -71,8 +71,8 @@
   background-size: cover;
   padding: 50px;
   margin: 0px;
-  color: white;
-  font-family: 'Indie Flower', cursive;
+  color: black;
+  font-family: 'Yatra One', cursive;
 }
 
 #lunch {
@@ -80,10 +80,6 @@
   background-size: cover;
   padding: 50px;
   margin: 0px;
-  color: white;
-  font-family: 'Indie Flower', cursive;
-}
-
-p {
-  font-size: 17px;
+  color: black;
+  font-family: 'Yatra One', cursive;
 }
