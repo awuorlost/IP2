@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("Images/landing.jpg");
+  background-image: url("../Images/landing.jpg");
   background-repeat: no-repeat;
   height: 80vh;
   margin: 0vh;
@@ -67,34 +67,34 @@
 }
 
 #breakfast {
-  background-image: url(/Images/breakfast.jpg);
+  background-image: url("../Images/breakfast.jpg");
   background-size: cover;
   padding: 50px;
   margin: 0px;
-  color: black;
+  color: white;
   font-family: 'Yatra One', cursive;
 }
 
 #lunch {
-  background-image: url(/Images/lunch.jpg);
+  background-image: url("../Images/lunch.jpg");
   background-size: cover;
   padding: 50px;
   margin: 0px;
-  color: black;
+  color: white;
   font-family: 'Yatra One', cursive;
 }
 
 #dinner {
-  background-image: url(/Images/dinner2.jpg);
+  background-image: url("../Images/dinner2.jpg");
   background-size: cover;
   padding: 50px;
   margin: 0px;
-  color: black;
+  color: white;
   font-family: 'Yatra One', cursive;
 }
 
 .head {
-  color: black;
+  color: white;
   font-family: 'Yatra One', cursive;
   padding-left: 5%;
   font-size: 30px;
@@ -112,17 +112,34 @@
 }
 
 .section {
-margin-top: 50px;
-margin-right: 50px;
-margin-left: 50px;
-border:  3px solid white;
-font-family: 'Indie Flower', cursive;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border: 3px solid white;
+  font-family: 'Indie Flower', cursive;
 }
+
 .section 2 {
   margin-top: 50px;
   margin-right: 50px;
   margin-left: 50px;
-  border:  3px solid white;
+  border: 3px solid white;
   margin-bottom: 50px;
   font-family: 'Indie Flower', cursive;
+}
+
+.table {
+  background-image: url("../Images/foodsBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin top: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.imageb {
+  border: solid 3px black;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
