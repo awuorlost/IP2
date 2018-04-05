@@ -3,8 +3,8 @@
 
 <head>
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jsquery-3.3.1.js"></script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Yatra+One" rel="stylesheet">
@@ -16,30 +16,19 @@
         <div class="row well well-lg">
           <div class="col-md-8 col-md-offset-4 centerfy">
 
-            <nav class="navbar navbar-default" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#">Blog</a>
-                        </div>
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Menu</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
-               <img src="Images/logoBig.png" class="logo">
-              <h3 class="head">We Provide The Best food <br>At The <strong>Right Price</strong></h3>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Home</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+              </div>
             </div>
+
+
+
+            <img src="Images/logoBig.png" class="logo">
+            <h3 class="head">We Provide The Best food <br>At The <strong>Right Price</strong></h3>
           </div>
         </div>
+      </div>
