@@ -59,6 +59,13 @@
   font-family: 'Yatra One', cursive;
 }
 
+.party {
+  height: 60px;
+  background-color: #ff7433;
+  margin: 0px;
+  font-family: 'Yatra One', cursive;
+}
+
 #breakfast {
   background-image: url(Images/breakfast.jpg);
   background-size: cover;
