@@ -1,5 +1,5 @@
 .jumbotron{
-  background-image: url(../img/backgrounds/landing.jpg);
+  background-image: url(../Images/landing.jpg);
   background-repeat: no-repeat;
   height:80vh;
   margin: 0vh;
@@ -7,5 +7,3 @@
   background-size: cover;
   font-family: 'Yatra One', cursive;
 }
-
- 
