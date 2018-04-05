@@ -67,7 +67,7 @@
 }
 
 #breakfast {
-  background-image: url(Images/breakfast.jpg);
+  background-image: url(/Images/breakfast.jpg);
   background-size: cover;
   padding: 50px;
   margin: 0px;
@@ -76,10 +76,31 @@
 }
 
 #lunch {
-  background-image: url(Images/lunch.jpg);
+  background-image: url(/Images/lunch.jpg);
   background-size: cover;
   padding: 50px;
   margin: 0px;
   color: black;
   font-family: 'Yatra One', cursive;
+}
+
+#dinner {
+  background-image: url(/Images/dinner2.jpg);
+  background-size: cover;
+  padding: 50px;
+  margin: 0px;
+  color: black;
+  font-family: 'Yatra One', cursive;
+}
+
+.head {
+  color: black;
+  font-family: 'Yatra One', cursive;
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+.body {
+  color: white margin: 0;
+  padding: 0;
 }
