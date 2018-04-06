@@ -163,7 +163,7 @@
   font-family: 'Indie Flower', cursive;
 }
 
-.drinks{
+.drinks {
   margin-top: 50px;
   margin-right: 50px;
   margin-left: 50px;
@@ -178,146 +178,162 @@
   margin-top: 70px;
   font-family: 'Indie Flower', cursive;
 }
-.tomatoe{
+
+.tomatoe {
   background-image: url(..//img/backgrounds/subscribe.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height:40vh;
-  margin top:0px;
+  height: 40vh;
+  margin top: 0px;
   font-family: 'Berkshire Swash', cursive;
   color: white;
 }
-.font{
+
+.font {
   text-align: left;
   font-size: 25px;
   padding-top: 100PX;
 }
+.about {
+  background-color: white;
+  border: 2px solid silver;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
 
 .overlay {
-
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
 .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 
-
 .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
 
 @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
+
 /* Add some padding and a grey background color to containers */
+
 form {
-    border: 4px;
+  border: 4px;
 }
 
 .container {
-    padding: 2px;
+  padding: 2px;
 }
 
 input[type=text], input[type=submit] {
-    width: 35%;
-    padding: 12px;
-    margin-right: 10px;
-    border: 1px solid #ff7433;
-    box-sizing: border-box;
+  width: 35%;
+  padding: 12px;
+  margin-right: 10px;
+  border: 1px solid #ff7433;
+  box-sizing: border-box;
 }
 
 input[type=checkbox] {
-    margin-top: 1px;
+  margin-top: 1px;
 }
 
 input[type=submit] {
-    background-color: #ff7433;
-    color: white;
-    border: none;
+  background-color: #ff7433;
+  color: white;
+  border: none;
 }
 
 input[type=submit]:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
-.bottom{
-  background-color: #ff7433;
-  /* background-size: cover;
-  background-repeat: no-repeat; */
-  height:50vh;
-  margin top:0px;
-  font-family: 'Berkshire Swash', cursive;
+
+.bottom {
+  background-color: #F15A29;
+  height: 50vh;
+  margin top: 0px;
+  font-family: 'Indie Flower', cursive;
   color: white;
 }
-.serro{
-	padding-top: 50px;
-	padding-bottom: 50px;
+
+.serro {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.col-md-4{
+
+.col-md-4 {
   margin: 0px;
   padding: 0px;
   border: 0px;
 }
-.bug{
+
+.bug {
   padding: 0px;
   margin: 0px;
 }
-.nav-tabs > li {
-    float: left;
-    margin-bottom: -1px;
-    width: 25%;
-}
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 
-    color: #F15A29;
-    cursor: default;
-    background-color: #fff;
-    border: 0.5px solid #ddd;
-    border-bottom-color: transparent;
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -1px;
+  width: 25%;
 }
-.footer{
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  color: #F15A29;
+  cursor: default;
+  background-color: #fff;
+  border: 0.5px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.footer {
   background-color: #F15A29;
   background-size: cover;
   background-repeat: no-repeat;
-  height:40vh;
-  margin top:0px;
+  height: 40vh;
+  margin top: 0px;
   font-family: 'Yatra One', cursive;
   color: white;
 }
-#align{
+
+#align {
   text-align: center;
 }
