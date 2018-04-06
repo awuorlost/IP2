@@ -140,11 +140,23 @@
 }
 .gallery{
   background-color: white;
-   width: 200px;
-   border:  3px solid #ff7433;
+   width: 150px;
+   border: 2px solid #ff7433;
    padding: 0px;
    margin-top: 0px;
    margin-bottom: 50px;
-   margin-left: 300px;
-   font-family: 'Berkshire Swash', cursive;
+   margin-left: 200px;
+   font-family: 'Indie Flower', cursive;
+}
+
+.row{
+margin: 0%;
+}
+
+.colmd{
+margin-top: 50px;
+margin-right: 50px;
+margin-left: 50px;
+border:  3px solid silver;
+font-family: 'Indie Flower', cursive;
 }
