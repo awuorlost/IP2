@@ -44,7 +44,7 @@
   display: block;
 }
 
-.tworows {
+.two {
   height: 100%;
   margin: 0px;
   text-align: center;
@@ -58,6 +58,7 @@
   background-color: #f1e9e5;
   font-family: 'Yatra One', cursive;
   color: black;
+  text-align: center;
 }
 
 .party {
@@ -68,240 +69,198 @@
   color: white;
 }
 
-#breakfast {
-  background-image: url("../Images/breakfast.jpg");
-  background-size: cover;
-  padding: 50px;
-  margin: 0px;
-  color: white;
-  font-family: 'Yatra One', cursive;
-}
-
-#lunch {
-  background-image: url("../Images/lunch.jpg");
-  background-size: cover;
-  padding: 50px;
-  margin: 0px;
-  color: white;
-  font-family: 'Yatra One', cursive;
-}
-
-#dinner {
-  background-image: url("../Images/dinner2.jpg");
-  background-size: cover;
-  padding: 50px;
-  margin: 0px;
-  color: white;
-  font-family: 'Yatra One', cursive;
-}
-
-.head {
-  color: white;
-  font-family: 'Yatra One', cursive;
-  padding-left: 5%;
-  font-size: 30px;
-}
-
-.body {
-  color: white margin: 0;
-  padding: 0;
-}
-
-.container-fluid {
-  width: 100%;
-  margin-top: 0%;
-  padding: 0;
-}
-
-.section {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-  border: 3px solid white;
-  font-family: 'Indie Flower', cursive;
-}
-
-. {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-  border: 3px solid white;
-  margin-bottom: 50px;
-  font-family: 'Indie Flower', cursive;
-}
-
-.gallery {
-  background-color: white;
-  width: 150px;
-  border: 2px solid #ff7433;
+.col-md-3 {
   padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 50px;
-  margin-left: 200px;
-  font-family: 'Indie Flower', cursive;
-}
-
-.row {
   margin: 0%;
-}
-
-.colmd {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-  border: 3px solid silver;
-  font-family: 'Indie Flower', cursive;
-}
-
-.table {
-  background-image: url("../Images/foodsBg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 60vh;
-  margin top: 50px;
-  padding-right: 0px;
-  font-family: 'Indie Flower', cursive;
-}
-
-.drinks {
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 50px;
-  font-family: 'Indie Flower', cursive;
-}
-
-.testimonials {
-  border: 3px solid white;
-  margin-right: 70px;
-  margin-left: 70px;
-  margin-top: 70px;
-  font-family: 'Indie Flower', cursive;
-}
-
-.tomatoe {
-  background-image: url(..//img/backgrounds/subscribe.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 40vh;
-  margin top: 0px;
-  font-family: 'Berkshire Swash', cursive;
-  color: white;
-}
-
-.font {
-  text-align: left;
-  font-size: 25px;
-  padding-top: 100PX;
-}
-.about {
-  background-color: white;
-  border: 2px solid silver;
-  padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-.email {
-  background-color: white;
-  border: 2px solid silver;
-  padding: 0px;
-  margin-top: 0px;
-  margin-bottom: 50px;
-}
-
-
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px
-  }
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-/* Add some padding and a grey background color to containers */
-
-form {
-  border: 4px;
-}
-
-.container {
-  padding: 2px;
-}
-
-input[type=text], input[type=submit] {
-  width: 35%;
-  padding: 12px;
-  margin-right: 10px;
-  border: 1px solid #ff7433;
-  box-sizing: border-box;
-}
-
-input[type=checkbox] {
-  margin-top: 1px;
-}
-
-input[type=submit] {
-  background-color: #ff7433;
-  color: white;
-  border: none;
-}
-
-input[type=submit]:hover {
-  opacity: 0.8;
-}
-
-.bottom {
-  background-color: #F15A29;
-  height: 50vh;
-  margin top: 0px;
-  font-family: 'Indie Flower', cursive;
-  color: white;
-}
-
-.serro {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.col-md-4 {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-}
-
-.bug {
-  padding: 0px;
-  margin: 0px;
-}
-
-.nav-tabs>li {
-  float: left;
-  margin-bottom: -1px;
-  width: 25%;
-}
-
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-  color: #F15A29;
-  cursor: default;
-  background-color: #fff;
-  border: 0.5px solid #ddd;
-  border-bottom-color: transparent;
-}
-
-.footer {
-  background-color: #F15A29;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 40vh;
-  margin top: 0px;
-  font-family: 'Yatra One', cursive;
-  color: white;
-}
-
-#align {
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
+  #breakfast {
+    background-image: url("../Images/breakfast.jpg");
+    background-size: cover;
+    padding: 50px;
+    margin: 0px;
+    color: white;
+    font-family: 'Yatra One', cursive;
+  }
+  #lunch {
+    background-image: url("../Images/lunch.jpg");
+    background-size: cover;
+    padding: 50px;
+    margin: 0px;
+    color: white;
+    font-family: 'Yatra One', cursive;
+  }
+  #dinner {
+    background-image: url("../Images/dinner2.jpg");
+    background-size: cover;
+    padding: 50px;
+    margin: 0px;
+    color: white;
+    font-family: 'Yatra One', cursive;
+  }
+  .head {
+    color: white;
+    font-family: 'Yatra One', cursive;
+    padding-left: 5%;
+    font-size: 30px;
+  }
+  .body {
+    color: white margin: 0;
+    padding: 0;
+  }
+  .container-fluid {
+    width: 100%;
+    margin-top: 0%;
+    padding: 0;
+  }
+  .section {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 3px solid white;
+    font-family: 'Indie Flower', cursive;
+  }
+  .gallery {
+    background-color: white;
+    width: 150px;
+    border: 2px solid #ff7433;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    font-family: 'Indie Flower', cursive;
+  }
+  .row {
+    margin: 0%;
+  }
+  .colmd {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 3px solid silver;
+    font-family: 'Indie Flower', cursive;
+  }
+  .table {
+    background-image: url("../Images/foodsBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin top: 50px;
+    padding-right: 0px;
+    font-family: 'Indie Flower', cursive;
+  }
+  .drinks {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: 'Indie Flower', cursive;
+  }
+  .testimonials {
+    border: 3px solid white;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-family: 'Indie Flower', cursive;
+  }
+  .tomatoe {
+    background-image: url(..//img/backgrounds/subscribe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin top: 0px;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+  }
+  .font {
+    text-align: left;
+    font-size: 25px;
+    padding-top: 100PX;
+  }
+  .about {
+    background-color: white;
+    border: 2px solid silver;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .email {
+    background-color: white;
+    border: 2px solid silver;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px
+    }
+    form {
+      border: 4px;
+    }
+    .container {
+      padding: 2px;
+    }
+    input[type=text], input[type=submit] {
+      width: 35%;
+      padding: 12px;
+      margin-right: 10px;
+      border: 1px solid #ff7433;
+      box-sizing: border-box;
+    }
+    input[type=checkbox] {
+      margin-top: 1px;
+    }
+    input[type=submit] {
+      background-color: #ff7433;
+      color: white;
+      border: none;
+    }
+    input[type=submit]:hover {
+      opacity: 0.8;
+    }
+    .bottom {
+      background-color: #F15A29;
+      height: 50vh;
+      margin top: 0px;
+      font-family: 'Indie Flower', cursive;
+      color: white;
+    }
+    .serro {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .col-md-4 {
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+    }
+    .bug {
+      padding: 0px;
+      margin: 0px;
+    }
+    .nav-tabs>li {
+      float: left;
+      margin-bottom: -1px;
+      width: 25%;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+      color: #F15A29;
+      cursor: default;
+      background-color: #fff;
+      border: 0.5px solid #ddd;
+      border-bottom-color: transparent;
+    }
+    .footer {
+      background-color: #F15A29;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40vh;
+      margin top: 0px;
+      font-family: 'Yatra One', cursive;
+      color: white;
+    }
+    #align {
+      text-align: center;
+    }
