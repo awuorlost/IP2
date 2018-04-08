@@ -124,12 +124,14 @@
   .gallery {
     background-color: white;
     width: 150px;
-    border: 2px solid #ff7433;
+    border: 1px solid #ff7433;
     padding: 0px;
-    margin-top: 0px;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 200px;
     font-family: 'Indie Flower', cursive;
+  }
+
   }
   .row {
     margin: 0%;
@@ -259,7 +261,7 @@
       height: 40vh;
       margin top: 0px;
       font-family: 'Yatra One', cursive;
-      color: white;
+      color: black;
     }
     #align {
       text-align: center;
